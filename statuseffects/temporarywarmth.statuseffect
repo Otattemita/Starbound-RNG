@@ -1,0 +1,20 @@
+{
+  "kind" : "temporarywarmth",
+  "primitives" : [
+    {
+      "name" : "warmth",
+	  "mode" : "max",
+      "amount" : 50
+    },
+	
+    {
+      "name" : "glow",
+      "amount" : 1,
+      "color" : [90, 85, 95]
+    }
+  ],
+
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "Heat!",
+  "mainInterfaceIcon" : "/interface/statuses/warm.png" 
+}

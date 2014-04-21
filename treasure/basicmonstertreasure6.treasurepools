@@ -1,0 +1,215 @@
+{
+		//"__merge" : [],
+
+  "basicMonsterTreasure6" : [
+    [1, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 10] ],
+          [0.18, [ "money", 25] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "commonaxe" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "commonpistol" } ] ],
+          [0.20, [ "alienmeat" ] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ],
+    [2, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 60] ],
+          [0.18, [ "money", 75] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "commondagger" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "uncommonplasmapistol" } ] ],
+          [0.10, [ "alienmeat", 1] ],
+          [0.10, [ "alienmeat", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ],
+    [3, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 110] ],
+          [0.18, [ "money", 125] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "commonhammer" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ] ],
+          [0.10, [ "alienmeat", 1] ],
+          [0.10, [ "alienmeat", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ],
+    [4, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 160] ],
+          [0.18, [ "money", 175] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "commonshortsword" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "commonplasmamachinepistol" } ] ],
+          [0.10, [ "alienmeat", 1] ],
+          [0.10, [ "alienmeat", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ],
+    [5, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 165] ],
+          [0.18, [ "money", 180] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommonspear" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ] ],
+          [0.10, [ "alienmeat", 1] ],
+          [0.10, [ "alienmeat", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ],
+    [6, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 170] ],
+          [0.18, [ "money", 185] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "commonbroadsword" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "commonplasmaassaultrifle" } ] ],
+          [0.10, [ "alienmeat", 1] ],
+          [0.10, [ "alienmeat", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ],
+    [7, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 175] ],
+          [0.18, [ "money", 185] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ] ],
+          [0.10, [ "alienmeat", 1] ],
+          [0.10, [ "alienmeat", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ],
+    [8, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 180] ],
+          [0.18, [ "money", 190] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappyspear" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "commonplasmasniperrifle" } ] ],
+          [0.10, [ "alienmeat", 1] ],
+          [0.10, [ "alienmeat", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ],
+    [9, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 185] ],
+          [0.18, [ "money", 195] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappyhammer" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "commonshotgun" } ] ],
+          [0.10, [ "alienmeat", 1] ],
+          [0.10, [ "alienmeat", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ],
+    [10, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.36, [ "money", 190] ],
+          [0.18, [ "money", 200] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ] ],
+          [0.005, [ "generatedgun", 1, { "definition" : "commonplasmashotgun" } ] ],
+          [0.10, [ "alienmeat", 1] ],
+          [0.10, [ "alienmeat", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.23, 1],
+          [0.18, 2],
+          [0.14, 3],
+          [0.12, 4],
+          [0.09, 5]
+        ],
+        "levelVariance" : [0, 2],
+        "allowDuplication" : false
+      } ]
+  ]
+}

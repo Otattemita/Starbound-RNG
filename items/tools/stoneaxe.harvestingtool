@@ -1,0 +1,15 @@
+{
+"__merge" : [
+ [ "overwrite", "maxStack" ],
+ [ "overwrite", "blockRadius" ],
+ [ "overwrite", "altBlockRadius" ],
+ [ "overwrite", "damage" ],
+ [ "overwrite", "fireTime" ]
+],
+
+  "maxStack" : 1,
+  "fireTime" : 0.25,
+  "blockRadius" : 4,
+  "altBlockRadius" : 2,
+  "damage" : 6
+}

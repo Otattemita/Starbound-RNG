@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 10000000 },
+    { "item" : "beamaxe", "count" : 1 }
+  ],
+  "output" : { "item" : "godhand", "count" : 1 },
+  "groups" : [ "mod", "roboticcraftingtable", "tools", "all" ]
+}

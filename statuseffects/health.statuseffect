@@ -1,0 +1,7 @@
+{
+  "__merge" : [],
+  "duration" : 5,
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "Regen",
+  "icon" : [ "/interface/statuses/heal.png" ]
+}

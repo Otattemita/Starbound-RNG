@@ -1,0 +1,7 @@
+{
+	"__merge" : [],
+
+		"mainInterfaceIcon" : "/interface/statuses/invisible.png",
+		"icon" : [ "/interface/statuses/invisible.png" ]
+
+}

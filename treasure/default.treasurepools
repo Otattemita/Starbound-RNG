@@ -1,0 +1,141 @@
+{
+	"__merge" : [],
+	
+  "starterTreasure" : [
+    [0, {
+			"__merge" : [ [ "overwrite", "allowDuplication" ] ],
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          "stonepickaxe",
+          "stonehoe",
+          [ "cornseed", 3],
+          [ "coalore", 3],
+          [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ],
+          [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "avianStarterTreasure" : [
+    [0, {
+			"__merge" : [ [ "overwrite", "allowDuplication" ] ],
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          "stonepickaxe",
+          "stonehoe",
+          [ "torch", 25 ],
+          [ "feathercrownseed", 3],
+          [ "wheatseed", 3],
+          [ "avianstarter", 1],
+          [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ],
+          [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "apexStarterTreasure" : [
+    [0, {
+			"__merge" : [ [ "overwrite", "allowDuplication" ] ],	
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          "stonepickaxe",
+          "stonehoe",
+          [ "torch", 25 ],
+          [ "bananaseed", 3],
+          [ "wheatseed", 3],
+          [ "apexstarter", 1],
+          [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ],
+          [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "humanStarterTreasure" : [
+    [0, {
+			"__merge" : [ [ "overwrite", "allowDuplication" ] ],	
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          "stonepickaxe",
+          "stonehoe",
+          [ "torch", 25 ],
+          [ "cornseed", 3],
+          [ "wheatseed", 3],
+          [ "humanstarter", 1],
+          [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ],
+          [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "glitchStarterTreasure" : [
+    [0, {
+			"__merge" : [ [ "overwrite", "allowDuplication" ] ],	
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          "stonepickaxe",
+          "stonehoe",
+          [ "torch", 25 ],
+          [ "boltbulbseed", 3],
+          [ "wheatseed", 3],
+          [ "glitchstarter", 1],
+          [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ],
+          [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "hylotlStarterTreasure" : [
+    [0, {
+			"__merge" : [ [ "overwrite", "allowDuplication" ] ],
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          "stonepickaxe",
+          "stonehoe",
+          [ "torch", 25 ],
+          [ "coralcreepseed", 3],
+          [ "wheatseed", 3],
+          [ "hylotlstarter", 1],
+          [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ],
+          [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "floranStarterTreasure" : [
+    [0, {
+			"__merge" : [ [ "overwrite", "allowDuplication" ] ],
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          "stonepickaxe",
+          "stonehoe",
+          [ "torch", 25 ],
+          [ "bonebooseed", 3],
+          [ "wheatseed", 3],
+          [ "floranstarter", 1],
+          [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ],
+          [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ]
+}

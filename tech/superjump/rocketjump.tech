@@ -1,0 +1,9 @@
+{
+	"__merge" : [
+		[ "overwrite", "energyUsage"],
+		[ "overwrite", "superjumpTime"]
+	],
+	
+  "energyUsage" : 150.0,
+  "superjumpTime" : 0.15
+}

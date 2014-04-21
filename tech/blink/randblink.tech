@@ -1,0 +1,8 @@
+{
+
+	"__merge" : [
+		[ "overwrite", "energyUsage"]
+	],
+
+  "energyUsage" : 50
+}

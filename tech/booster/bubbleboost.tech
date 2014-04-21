@@ -1,0 +1,10 @@
+{
+
+	"__merge" : [
+		[ "overwrite", "boostSpeed"],
+		[ "overwrite", "energyUsagePerSecond"]
+	],
+
+	"boostSpeed" : 30,
+	"energyUsagePerSecond" : 750
+}

@@ -1,0 +1,9 @@
+{
+	"__merge" : [
+		[ "overwrite", "dashDuration"],
+		[ "overwrite", "energyUsage"]
+	],
+
+	"dashDuration" : 0.7,
+	"energyUsage" : 275.0
+}

@@ -1,0 +1,22 @@
+{
+
+"__merge" : [
+	[ "overwrite", "effects" ]
+],
+
+  "effects" : [ [
+    {
+        "kind" : "glowinitiator",
+        "amount" : 2.0
+    },
+
+  	{
+		"kind" : "temporarywarmth",
+		"amount" : 5,
+		"duration" : 300
+	}	  
+
+    ] ],
+
+	"emitters" : [ "stimuse" ]
+}

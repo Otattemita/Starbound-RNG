@@ -1,0 +1,11 @@
+{
+
+"__merge" : [
+	[ "overwrite" , "input" ]
+],
+
+  "input" : [
+    { "item" : "leather", "count" : 64 },
+    { "item" : "fabric", "count" : 32 }
+  ]
+}

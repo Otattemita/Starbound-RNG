@@ -1,0 +1,12 @@
+{
+  "name" : "Starbound RNG",
+  "version" : "Beta v. Enraged Koala",
+  "path" : ".",
+  "dependencies" : [ "industrialization", "MMNgun", "Pilchenstein's Science Station", "DotaTech", "Variety is the spice of the Universe", "Starscape", "Dark Souls"],
+  "metadata" : {
+    "displayName" : "Starbound RNG",
+    "author" : "Otata & Potart",
+    "description" : "Let's make your life a little bit harder. Make big plays, create and discover new strategies to achieve victory. ",
+    "version" : "0.91 -rr"
+  }
+}

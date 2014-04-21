@@ -1,0 +1,124 @@
+{
+  "__merge" : [],
+
+  "minibosstreasure" : [
+    [1, {
+			"__merge" : [ [ "overwrite", "allowDuplication" ] ],
+        "pool" : [
+		
+          [0.030, [ "generatedshield", 1, { "definition" : "tier1shield" } ] ],
+
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappyaxe" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappyspear" } ] ],
+          [0.005, [ "generatedsword", 1, { "definition" : "uncommoncrappyhammer" } ] ],
+
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonbroadsword" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonaxe" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonspear" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommondagger" } ] ],
+          [0.01, [ "generatedsword", 1, { "definition" : "uncommonhammer" } ] ],
+          [0.01, [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "watersword" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "eyesword" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "bonehammer" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "starcleaversword" } ] ],
+          [0.0012, [ "generatedsword", 1, { "definition" : "teslastaff" } ] ],
+		  [0.0012, [ "generatedgun", 1, { "definition" : "minigun" } ] ],
+		  [0.0012, [ "generatedgun", 1, { "definition" : "magnum" } ] ],
+		  [0.0012, [ "generatedgun", 1, { "definition" : "teslagun" } ] ]
+
+
+        ],
+        "poolRounds" : [
+          [1.0, 1],
+          [0.75, 2],
+          [0.50, 3],
+          [0.25, 4]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ],
+
+    [2, {
+			"__merge" : [ [ "overwrite", "allowDuplication" ] ],
+        "pool" : [
+
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2axe" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2spear" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2dagger" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2hammer" } ] ],
+          [0.004, [ "generatedsword", 1, { "definition" : "tier2shortsword" } ] ],
+          [0.015, [ "generatedshield", 1, { "definition" : "tier2shield" } ] ],
+
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2axe" } ] ],
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2spear" } ] ],
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2hammer" } ] ],
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2dagger" } ] ],
+          [0.05, [ "generatedsword", 1, { "definition" : "uncommontier2shortsword" } ] ],
+
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonbroadsword" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonaxe" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonspear" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommondagger" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonhammer" } ] ],
+          [0.002, [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ] ],
+
+          [0.002, [ "generatedgun", 1, { "definition" : "uncommongrenadelauncher" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonplasmaassaultrifle" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonflamethrower" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonshotgun" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonplasmashotgun" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonsniperrifle" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonplasmasniperrifle" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonpistol" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonplasmapistol" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonmachinepistol" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonplasmamachinepistol" } ] ],
+		  [0.002, [ "generatedgun", 1, { "definition" : "uncommonrocketlauncher" } ] ],
+		  
+		  [0.001, [ "generatedgun", 1, { "definition" : "rareassaultrifle" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rareflamethrower" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rareshotgun" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rareplasmashotgun" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "raresniperrifle" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rareplasmasniperrifle" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rarepistol" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rareplasmapistol" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "raremachinepistol" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "raregrenadelauncher" } ] ],
+		  [0.001, [ "generatedgun", 1, { "definition" : "rarerocketlauncher" } ] ],
+		  
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendarygrenadelauncher" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendaryassaultrifle" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendaryplasmaassaultrifle" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendaryflamethrower" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendaryshotgun" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendaryplasmashotgun" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendarysniperrifle" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendaryplasmasniperrifle" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendarypistol" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendaryplasmapistol" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendarymachinepistol" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendaryplasmamachinepistol" } ] ],
+		  [0.0005, [ "generatedgun", 1, { "definition" : "legendaryrocketlauncher" } ] ]
+        ],
+        "poolRounds" : [
+          [1.0, 1],
+          [0.75, 2],
+          [0.50, 3],
+          [0.25, 4]
+
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ]
+ 
+}

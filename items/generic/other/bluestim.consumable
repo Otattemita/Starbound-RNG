@@ -1,0 +1,21 @@
+{
+
+"__merge" : [
+	[ "overwrite", "effects" ]
+],
+
+  "effects" : [ [
+    {
+        "kind" : "jumpboostinitiator",
+        "amount" : 0.5
+    },
+	  
+    {
+        "kind" : "temporaryoxygen",
+        "amount" : 1,
+		"duration" : 300
+    }
+    ] ],
+
+	"emitters" : [ "stimuse" ]
+}

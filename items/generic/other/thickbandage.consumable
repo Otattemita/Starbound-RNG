@@ -1,0 +1,15 @@
+{
+
+"__merge" : [
+	[ "overwrite", "effects" ]
+],
+
+  "effects" : [ [
+      {
+        "kind" : "bandage",
+        "amount" : 10
+      }
+    ] ],
+
+	"emitters" : [ "bandageuse" ]
+}

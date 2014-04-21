@@ -1,0 +1,25 @@
+{
+	"__merge" : [
+	[ "overwrite",  "statusEffects"],
+	[ "overwrite",  "maxStack"]
+	],
+			"maxStack" : 2,
+			"statusEffects" : [
+	
+			{
+				"kind" : "coldprotection",
+				"amount" : 33
+			},
+
+			{
+				"kind" : "protection",
+				"amount" : 20
+			},
+
+			{
+				"kind" : "energyincrease",
+				"amount" : 100
+			}
+
+			]
+}

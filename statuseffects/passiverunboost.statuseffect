@@ -1,0 +1,11 @@
+{
+  "kind" : "passiverunboost",
+  "duration" : 1,
+  "primitives" : [
+    { "name" : "runboost", "mode" : "max" }
+  ],
+
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "Speed +",
+  "icon" : [ "/interface/statuses/runboost.png" ]
+}

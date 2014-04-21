@@ -1,0 +1,17 @@
+{
+	"__merge" : [
+		[ "overwrite", "effects" ]
+	],
+	
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      },
+	  
+      {
+        "kind" : "redstim",
+        "amount" : 1.25
+      }
+    ] ]
+}

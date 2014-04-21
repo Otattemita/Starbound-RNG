@@ -1,0 +1,22 @@
+{
+	"__merge" : [
+		[ "overwrite" , "statusEffects"]
+	],
+
+  "statusEffects" : [
+    {
+      "kind" : "passiverunboost",
+      "amount" : 0.25
+    },
+
+    {
+      "kind" : "passivejumpboost",
+      "amount" : 0.25
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 10
+    }
+  ]
+}

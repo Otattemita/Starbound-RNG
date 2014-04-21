@@ -1,0 +1,7 @@
+{
+ "__merge" : [],
+ 
+  "interactData" : {
+    "filter" : [ "laserfurnace", "stonefurnace" ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+"__merge" : [
+ [ "overwrite", "maxStack" ],
+ [ "overwrite", "blockRadius" ],
+ [ "overwrite", "altBlockRadius" ],
+ [ "overwrite", "tileDamage" ],
+ [ "overwrite", "tileDamageBlunted" ],
+ [ "overwrite", "durabilityRegenChart" ]
+],
+
+  "maxStack" : 1,
+  "blockRadius" : 7,
+  "altBlockRadius" : 5,
+  "tileDamage" : 35,
+  "tileDamageBlunted" : 0.5,
+  "durabilityRegenChart" : [ ]
+}

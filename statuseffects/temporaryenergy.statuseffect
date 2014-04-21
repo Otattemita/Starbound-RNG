@@ -1,0 +1,29 @@
+{
+	
+  "kind" : "temporaryenergy",
+  "primitives" : [
+    {
+      "name" : "energyincrease",
+	  "mode" : "max",
+	  "//COMMENT" : "how to balance this shit",
+      "amount" : 1500
+    },
+	
+	{
+		"name" : "energyregenmodifier",
+		"//mode" : "max",
+		"amount:" : 100
+	},
+	
+	{
+		"name" : "runboost",
+		"//mode" : "max",
+		"percentage" : 25
+	}
+	
+  ],
+
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "Energy UP",
+  "mainInterfaceIcon" :  "/interface/statuses/energy.png" 
+}

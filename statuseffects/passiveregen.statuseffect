@@ -1,0 +1,14 @@
+{
+  "kind" : "passiveregen",
+    "primitives" : [
+    {
+      "name" : "Health",
+      "mode" : "max", //don't stack
+      "amount" : 1
+    }
+  ],
+
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "Healing",
+  "icon" : [ "/interface/statuses/heal.png" ]
+}

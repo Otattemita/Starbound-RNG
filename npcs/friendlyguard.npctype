@@ -1,0 +1,274 @@
+{
+	"__merge" : [
+		[ "overwrite" , "statusParameters" ]
+	],
+	
+	"scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+
+		"guard" : {			
+			"patrolDistance" : 256,
+			"noticeDistance" : 128,
+			"hailDistance" : 5,
+			"hailPercent" : 50,
+			"stopDistance" : -1,
+			"attackDistance" : -1,
+			"loseSightTime" : 10,
+			"loseSightDistance" : 160,
+			"wallCheckDistance" : 5,
+			"changeDirectionTimeRange" : [10, 20]
+		}
+	},
+
+	"dropPools" : [ "guardtreasure", "basicTreasure" ],
+
+	"statusParameters" : {
+    "baseMaxHealth" : 90,
+    "baseMaxEnergy" : 90,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 20.0
+  },
+
+ 
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier10head" } ],
+            "chest" : [ { "name" : "humantier10chest" } ],
+            "legs" : [ { "name" : "humantier10legs" } ],
+            "primary" : [
+              { "name" : "humantier10broadsword" },
+              { "name" : "generatedgun", "data" : { "definition" : "rareassaultrifle" } }
+            ]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "apextier10chest", "data" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "apextier10pants", "data" : { "colorIndex" : 8 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "rareassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareflamethrower" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmashotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raremachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmamachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raregrenadelauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarerocketlauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmasniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raresniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tierxshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier10chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier10pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonshortsword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "avianblaster" } },
+              { "name" : "generatedgun", "data" : { "definition" : "aviangun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareflamethrower" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmashotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raremachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmamachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raregrenadelauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarerocketlauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmasniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raresniperrifle" } }
+
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tierxshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "florantier10chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "florantier10pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 6 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonshortsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommontier2axe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommontier2hammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommontier2shortsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommontier2spear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommontier2broadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "anklegrinder" } },
+              { "name" : "generatedsword", "data" : { "definition" : "avianspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "aviansword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "boneaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "bonehammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "bonesaw" } },
+              { "name" : "generatedsword", "data" : { "definition" : "bonesword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "candycane" } },
+              { "name" : "generatedsword", "data" : { "definition" : "crystalspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "eyeaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "eyesword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "floranmace" } },
+              { "name" : "generatedsword", "data" : { "definition" : "floranprod" } },
+              { "name" : "generatedsword", "data" : { "definition" : "fryingpan" } },
+              { "name" : "generatedsword", "data" : { "definition" : "glitchlargemace" } },
+              { "name" : "generatedsword", "data" : { "definition" : "glitchsmallmace" } },
+              { "name" : "generatedsword", "data" : { "definition" : "mushroomsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "nightstick" } },
+              { "name" : "generatedsword", "data" : { "definition" : "rainbowspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "rustsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "slavesword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "starcleaversword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "steelchair" } },
+              { "name" : "generatedsword", "data" : { "definition" : "teslastaff" } },
+              { "name" : "generatedsword", "data" : { "definition" : "toxicbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "twistedspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "watersword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "florangrenadelauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "floranneedler" } }
+
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "floranstrongshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "human" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "humantier10chest", "data" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "humantier10pants", "data" : { "colorIndex" : 3 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonshortsword" } },
+			  { "name" : "generatedsword", "data" : { "definition" : "glitchlargemace" } },
+              { "name" : "generatedsword", "data" : { "definition" : "glitchsmallmace" } },
+              { "name" : "generatedgun", "data" : { "definition" : "uncommonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "uncommongrenadelauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "uncommonmachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "uncommonpistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "uncommonrocketlauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "uncommonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "uncommonplasmashotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "uncommonsniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "uncommonplasmasniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareflamethrower" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmashotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raremachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmamachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raregrenadelauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarerocketlauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmasniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raresniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tierxshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "glitchtier10chest", "data" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "glitchtier10pants", "data" : { "colorIndex" : 3 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonshortsword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareflamethrower" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmashotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raremachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmamachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raregrenadelauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarerocketlauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmasniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raresniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "hylotltier10chest", "data" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "hylotltier10pants", "data" : { "colorIndex" : 7 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonshortsword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmaassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareflamethrower" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmashotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmapistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raremachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmamachinepistol" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raregrenadelauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rarerocketlauncher" } },
+              { "name" : "generatedgun", "data" : { "definition" : "rareplasmasniperrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "raresniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "hylotlstrongshield" } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ice", "count" : 7 }
+  ],
+  "output" : { "item" : "iceblock", "count" : 3 },
+  "groups" : [ "craftingtable", "materials", "all" ]
+}

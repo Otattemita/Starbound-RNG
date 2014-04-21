@@ -1,0 +1,10 @@
+{
+"__merge" : [],
+
+  "statusEffects" : [	
+	{
+	"kind" : "food",
+	"amount" : -0.007
+    }
+  ]
+}

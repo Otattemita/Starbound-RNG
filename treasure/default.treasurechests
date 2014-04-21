@@ -1,0 +1,51 @@
+{
+  "__merge" : [],
+  
+  "basicChest" : [
+    {
+      "containers" : [ "dotachest" ],
+      "treasurePool" : "basicTreasure",
+      "minimumLevel" : 1
+    }
+  ],
+  
+  "weaponChest" : [
+    {
+      "containers" : [ "dotachest" ],
+      "treasurePool" : "basicTreasure",
+      "minimumLevel" : 1
+    }
+  ],
+  
+  "glitchvillageChest" : [
+    {
+      "containers" : [ "dotachest", "chestwood" ],
+      "treasurePool" : "basicTreasure",
+      "minimumLevel" : 1
+    }
+  ],
+  
+  "glitchcastleChest" : [
+    {
+      "containers" : [ "dotachest", "chestwood" ],
+      "treasurePool" : "basicTreasure",
+      "minimumLevel" : 1
+    }
+  ],
+  
+  "glitchsewerChest" : [
+    {
+      "containers" : [ "dotachest", "chestwood" ],
+      "treasurePool" : "basicTreasure",
+      "minimumLevel" : 1
+    }
+  ],
+  
+  "avianairshipChest" : [
+    {
+      "containers" : [ "dotachest", "chestwood" ],
+      "treasurePool" : "basicTreasure",
+      "minimumLevel" : 1
+    }
+  ]
+}

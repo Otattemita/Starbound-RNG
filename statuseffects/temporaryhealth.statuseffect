@@ -1,0 +1,20 @@
+{
+  "kind" : "temporaryhealth",
+  "primitives" : [
+    {
+      "name" : "healthincrease",
+	  "mode" : "max",
+      "amount" : 1000
+    },
+	
+    {
+      "name" : "Health",
+	  "mode" : "max",
+      "amount" : 2.0
+    }
+  ],
+
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "Health UP",
+  "mainInterfaceIcon" : "/interface/statuses/health.png" 
+}

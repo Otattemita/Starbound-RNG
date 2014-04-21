@@ -1,0 +1,14 @@
+{
+
+"__merge" : [
+	[ "overwrite", "effects" ]
+],
+
+  "effects" : [ [
+      {
+        "kind" : "health",
+        "amount" : 50
+      }
+    ] ],
+  "emote" : ""
+}

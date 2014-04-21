@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "greenstim", "count" : 10 }
+  ],
+  "output" : 
+	{ "item" : "greenstim+",  "count" : 1 },
+	
+  "groups" : [ "roboticcraftingtable", "mod",  "all" ]
+}

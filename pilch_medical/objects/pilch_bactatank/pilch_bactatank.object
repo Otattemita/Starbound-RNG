@@ -1,0 +1,10 @@
+{
+	"__merge" : [
+		[ "overwrite", "sitStatusEffects" ]
+	],
+	
+	"sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 1.00 }
+  ]
+}

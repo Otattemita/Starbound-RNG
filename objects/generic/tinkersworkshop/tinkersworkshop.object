@@ -1,0 +1,8 @@
+{
+		"__merge" : [],
+		
+	"interactData" : {
+    "filter" : [ "mod", "craftingtable", "plain", "roboticcraftingtable", "anvil", "metalworkstation", "stonefurnace" ]
+	}
+}
+	

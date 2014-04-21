@@ -1,0 +1,19 @@
+{
+	"__merge" : [
+		[ "overwrite", "description" ],
+		[ "overwrite", "fireTime" ],
+		[ "overwrite", "twoHanded" ],
+		[ "overwrite", "level" ],
+		[ "overwrite", "projectile" ]
+	],
+	
+  "description" : "brainssssssssssssssssss",
+  "fireTime" : 0.01,
+  "twoHanded" : false,
+  "level" : 14,
+  "projectile" : { 
+	"speed" : 10,
+    "power" : 48,
+    "color" : [10, 255, 10]
+  }
+}

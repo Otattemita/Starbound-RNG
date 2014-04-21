@@ -1,0 +1,9 @@
+{
+  "__merge" : [
+//   [ "overwrite", "maxStack" ]
+	 [ "overwrite", "durability" ]
+  ],
+
+	"durability" : 500
+//  "maxStack" : 1
+}

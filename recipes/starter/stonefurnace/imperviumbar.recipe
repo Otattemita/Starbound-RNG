@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "Rubiumbar", "count" : 7 },
+    { "item" : "Ceruliumbar", "count" : 7 },
+    { "item" : "aegisaltbar", "count" : 7 },
+    { "item" : "titaniumbar", "count" : 7 },
+    { "item" : "durasteelbar", "count" : 7 }
+  ],
+  "output" : {
+    "item" : "imperviumbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

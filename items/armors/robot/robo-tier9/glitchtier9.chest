@@ -1,0 +1,25 @@
+{
+	"__merge" : [
+	[ "overwrite" , "statusEffects" ]
+	],
+	
+		"statusEffects" : [
+		
+		{
+			"kind" : "coldprotection",
+			"amount" : 33
+		},
+		
+		{
+			"kind" : "protection",
+			"amount" : 600
+		},
+		
+		{
+			"kind" : "healthincrease",
+			"amount" : 1500
+		}
+		
+		]
+}
+		

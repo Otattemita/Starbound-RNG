@@ -1,0 +1,11 @@
+{
+  "kind" : "passivejumpboost",
+  "duration" : 1,
+  "primitives" : [
+    { "name" : "jumpboost", "percentage" : 50, "mode" : "max" }
+  ],
+  
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "Jump +",
+  "icon" : [ "/interface/statuses/jumpboost.png" ]
+}

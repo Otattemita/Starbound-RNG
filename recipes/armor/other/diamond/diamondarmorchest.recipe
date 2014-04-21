@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 350 },
+    { "item" : "money", "count" : 25000 }
+  ],
+  "output" : { "item" : "diamondarmorchest", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

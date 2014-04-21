@@ -1,0 +1,13 @@
+{
+  "kind" : "temporaryoxygen",
+  "primitives" : [
+    {
+      "name" : "breath",
+      "amount" : 100
+    }
+],
+	
+  "tooltipLabel" : "",
+  "tooltipAmountLabel" : "Breathe!",
+  "mainInterfaceIcon" : "/interface/statuses/air.png" 
+}

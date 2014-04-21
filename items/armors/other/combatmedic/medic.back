@@ -1,0 +1,22 @@
+{
+"__merge" : [],
+ 
+ "inspectionKind" : "armor",
+ 
+    "statusEffects" : [
+    {
+      "kind" : "passiveregen",
+      "amount" : 5
+    },
+	
+	{
+		"kind" : "energyincrease",
+		"amount" : 300
+	},
+	
+	{
+		"kind" : "healthincrease",
+		"amount" : 250
+	}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+
+	"__merge" : [
+		[ "overwrite", "maxSpeed"]
+	],
+
+	"maxSpeed" : 100.0
+}

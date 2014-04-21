@@ -1,0 +1,31 @@
+{
+
+"__merge" : [
+	[ "overwrite", "effects" ]
+],
+
+  "effects" : [ [
+	{
+        "kind" : "runboostinitiator",
+        "amount" : 1.0
+	},
+	  
+	{
+		"kind" : "temporaryenergy",
+		"amount" : 5,
+		"duration" : 300
+	},
+	  
+	{
+		"kind" : "food",
+		"amount" : -10
+	},
+	
+	{
+		"kind" : "protection",
+		"percentage" : -12500,
+		"duration" : 310
+	}
+    ] ],
+	"emitters" : [ "stimuse" ]
+}
